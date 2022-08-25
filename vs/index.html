@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sugam Gautam</title>
+    <script src="https://kit.fontawesome.com/392f543ebf.js" crossorigin="anonymous"></script>
+</head>
+
+   <body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.png" alt="logo"></a>
+           
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                   
+                    <li><a href="index.html">Home</a></li>                   
+                    <li><a href="contact.html">Any Query</a></li>
+                    <li><a href="youtube.html">Youtube</a></li>   
+                   
+
+                </ul>
+               
+            </div>
+            <i class="fa-solid fa-bars"  onclick="showMenu()"></i>
+           
+        </nav>
+   
+    <div class="text">
+        <h1>Hey! Do You Know About Me ?</h1>
+        <p>I am Sugam Gautam. I am the developer of this site and for your knowledge, this website is not created for the <br> purpose of business. You are also able to have more info about me from the "About me" section. And Yah ! This much , please mind Visiting other sections of this page too!!. Thank You </p>
+       <a href="more.html" class="btn">More info</a>
+    </div>
+</section>
+    
+   <!-- javascript for togglemenu -->
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+   
+</script>
+
+</body>
+</html>
